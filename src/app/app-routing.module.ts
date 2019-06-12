@@ -6,8 +6,12 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
+import { CoverComponent } from './cover/cover.component';
 
 const routes: Routes = [
+  {
+    path: 'cover', component: CoverComponent
+  },
   {
     path: 'product', component: ProductComponent
   },
