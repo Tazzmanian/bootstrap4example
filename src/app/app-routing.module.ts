@@ -5,8 +5,12 @@ import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
+  {
+    path: 'product', component: ProductComponent
+  },
   {
     path: 'checkout', component: CheckoutComponent
   },
