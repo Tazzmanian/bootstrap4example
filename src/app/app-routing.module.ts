@@ -8,8 +8,12 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
 import { CoverComponent } from './cover/cover.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
+  {
+    path: 'blog', component: BlogComponent
+  },
   {
     path: 'carousel', component: CarouselComponent
   },
