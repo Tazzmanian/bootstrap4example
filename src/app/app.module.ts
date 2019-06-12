@@ -10,6 +10,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
 import { CoverComponent } from './cover/cover.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CoverComponent } from './cover/cover.component';
     PricingComponent,
     CheckoutComponent,
     ProductComponent,
-    CoverComponent
+    CoverComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

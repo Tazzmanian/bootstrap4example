@@ -7,8 +7,12 @@ import { PricingComponent } from './pricing/pricing.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { ProductComponent } from './product/product.component';
 import { CoverComponent } from './cover/cover.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
+  {
+    path: 'carousel', component: CarouselComponent
+  },
   {
     path: 'cover', component: CoverComponent
   },
