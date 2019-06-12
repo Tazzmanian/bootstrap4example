@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AlbumComponent } from './album/album.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlbumComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule,

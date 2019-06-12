@@ -3,8 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { AlbumComponent } from './album/album.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 const routes: Routes = [
+  {
+    path: 'pricing', component: PricingComponent
+  },
   {
     path: 'album', component: AlbumComponent
   },
