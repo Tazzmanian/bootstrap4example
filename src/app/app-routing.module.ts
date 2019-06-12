@@ -9,8 +9,12 @@ import { ProductComponent } from './product/product.component';
 import { CoverComponent } from './cover/cover.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
+  {
+    path: 'dashboard', component: DashboardComponent
+  },
   {
     path: 'blog', component: BlogComponent
   },
