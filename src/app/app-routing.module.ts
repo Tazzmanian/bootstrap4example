@@ -4,8 +4,12 @@ import { AlbumComponent } from './album/album.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
+  {
+    path: 'checkout', component: CheckoutComponent
+  },
   {
     path: 'pricing', component: PricingComponent
   },

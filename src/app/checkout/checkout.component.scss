@@ -1,0 +1,12 @@
+.container {
+  max-width: 960px;
+}
+
+.list-group {
+  div {
+    line-height: 1.25;
+    &.text-success {
+      line-height: 1.5;
+    }
+  }
+}

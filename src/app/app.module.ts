@@ -7,6 +7,7 @@ import { AlbumComponent } from './album/album.component';
 import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PricingComponent } from './pricing/pricing.component';
     AlbumComponent,
     HomeComponent,
     NotfoundComponent,
-    PricingComponent
+    PricingComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
