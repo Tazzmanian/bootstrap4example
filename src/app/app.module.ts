@@ -26,6 +26,7 @@ import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
 import { NavbarBottomComponent } from './navbar-bottom/navbar-bottom.component';
 import { FloatingLabelsComponent } from './floating-labels/floating-labels.component';
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { OffcanvasComponent } from './offcanvas/offcanvas.component';
     NavbarBottomComponent,
     FloatingLabelsComponent,
     OffcanvasComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,

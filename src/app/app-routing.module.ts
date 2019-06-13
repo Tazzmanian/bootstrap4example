@@ -22,8 +22,12 @@ import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
 import { NavbarBottomComponent } from './navbar-bottom/navbar-bottom.component';
 import { FloatingLabelsComponent } from './floating-labels/floating-labels.component';
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
+import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
+  {
+    path: 'layout', component: LayoutComponent
+  },
   {
     path: 'offcanvas', component: OffcanvasComponent
   },
