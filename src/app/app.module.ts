@@ -16,6 +16,7 @@ import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
+import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-footer-navbar.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
     BlogComponent,
     DashboardComponent,
     SignInComponent,
-    StickyFooterComponent
+    StickyFooterComponent,
+    StickyFooterNavbarComponent
   ],
   imports: [
     BrowserModule,

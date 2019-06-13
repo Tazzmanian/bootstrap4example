@@ -12,8 +12,12 @@ import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
+import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-footer-navbar.component';
 
 const routes: Routes = [
+  {
+    path: 'sticky-footer-navbar', component: StickyFooterNavbarComponent
+  },
   {
     path: 'sticky-footer', component: StickyFooterComponent
   },
