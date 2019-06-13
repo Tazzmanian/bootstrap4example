@@ -7,9 +7,23 @@
 }
 
 .row {
-  div {
-    text-align: center;
-    background-color: azure;
-    border-style: solid;
-  }
+    div {
+        text-align: center;
+        background-color: azure;
+        border-style: solid;
+    }
+}
+
+.container,
+.container-fluid,
+.containerless {
+    padding-top: 3rem;
+}
+
+.alignment {
+    .row {
+        margin-top: 1rem;
+        background-color: darkgray;
+        min-height: 10rem;
+    }
 }
