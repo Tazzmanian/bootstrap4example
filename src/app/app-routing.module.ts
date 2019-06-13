@@ -18,8 +18,12 @@ import { GridComponent } from './grid/grid.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { NavbarsComponent } from './navbars/navbars.component';
 import { NavbarStaticComponent } from './navbar-static/navbar-static.component';
+import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
 
 const routes: Routes = [
+  {
+    path: 'navbar-fixed', component: NavbarFixedComponent
+  },
   {
     path: 'navbar-static', component: NavbarStaticComponent
   },
