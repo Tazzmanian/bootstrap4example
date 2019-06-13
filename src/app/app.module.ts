@@ -14,6 +14,7 @@ import { CoverComponent } from './cover/cover.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     CoverComponent,
     CarouselComponent,
     BlogComponent,
-    DashboardComponent
+    DashboardComponent,
+    SignInComponent
   ],
   imports: [
     BrowserModule,

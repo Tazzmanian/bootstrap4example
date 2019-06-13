@@ -10,8 +10,12 @@ import { CoverComponent } from './cover/cover.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 
 const routes: Routes = [
+  {
+    path: 'sign-in', component: SignInComponent
+  },
   {
     path: 'dashboard', component: DashboardComponent
   },
