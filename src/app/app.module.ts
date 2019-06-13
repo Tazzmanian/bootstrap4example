@@ -19,6 +19,7 @@ import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
 import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-footer-navbar.component';
 import { StarterTemplateComponent } from './starter-template/starter-template.component';
 import { GridComponent } from './grid/grid.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { GridComponent } from './grid/grid.component';
     StickyFooterComponent,
     StickyFooterNavbarComponent,
     StarterTemplateComponent,
-    GridComponent
+    GridComponent,
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,
