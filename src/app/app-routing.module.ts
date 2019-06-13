@@ -14,8 +14,12 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
 import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-footer-navbar.component';
 import { StarterTemplateComponent } from './starter-template/starter-template.component';
+import { GridComponent } from './grid/grid.component';
 
 const routes: Routes = [
+  {
+    path: 'grid', component: GridComponent
+  },
   {
     path: 'starter-template', component: StarterTemplateComponent
   },
