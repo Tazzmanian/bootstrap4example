@@ -23,6 +23,7 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { NavbarsComponent } from './navbars/navbars.component';
 import { NavbarStaticComponent } from './navbar-static/navbar-static.component';
 import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
+import { NavbarBottomComponent } from './navbar-bottom/navbar-bottom.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
     JumbotronComponent,
     NavbarsComponent,
     NavbarStaticComponent,
-    NavbarFixedComponent
+    NavbarFixedComponent,
+    NavbarBottomComponent
   ],
   imports: [
     BrowserModule,
