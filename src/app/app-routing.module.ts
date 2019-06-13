@@ -20,8 +20,12 @@ import { NavbarsComponent } from './navbars/navbars.component';
 import { NavbarStaticComponent } from './navbar-static/navbar-static.component';
 import { NavbarFixedComponent } from './navbar-fixed/navbar-fixed.component';
 import { NavbarBottomComponent } from './navbar-bottom/navbar-bottom.component';
+import { FloatingLabelsComponent } from './floating-labels/floating-labels.component';
 
 const routes: Routes = [
+  {
+    path: 'floating-labels', component: FloatingLabelsComponent
+  },
   {
     path: 'navbar-bottom', component: NavbarBottomComponent
   },
