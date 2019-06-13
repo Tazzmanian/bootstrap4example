@@ -20,6 +20,7 @@ import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-foote
 import { StarterTemplateComponent } from './starter-template/starter-template.component';
 import { GridComponent } from './grid/grid.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { NavbarsComponent } from './navbars/navbars.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { JumbotronComponent } from './jumbotron/jumbotron.component';
     StickyFooterNavbarComponent,
     StarterTemplateComponent,
     GridComponent,
-    JumbotronComponent
+    JumbotronComponent,
+    NavbarsComponent
   ],
   imports: [
     BrowserModule,

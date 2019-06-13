@@ -16,8 +16,12 @@ import { StickyFooterNavbarComponent } from './sticky-footer-navbar/sticky-foote
 import { StarterTemplateComponent } from './starter-template/starter-template.component';
 import { GridComponent } from './grid/grid.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { NavbarsComponent } from './navbars/navbars.component';
 
 const routes: Routes = [
+  {
+    path: 'navbars', component: NavbarsComponent
+  },
   {
     path: 'jumbotron', component: JumbotronComponent
   },
