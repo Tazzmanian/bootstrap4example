@@ -15,6 +15,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SignInComponent } from './sign-in/sign-in.component';
     CarouselComponent,
     BlogComponent,
     DashboardComponent,
-    SignInComponent
+    SignInComponent,
+    StickyFooterComponent
   ],
   imports: [
     BrowserModule,

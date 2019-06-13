@@ -11,8 +11,12 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { StickyFooterComponent } from './sticky-footer/sticky-footer.component';
 
 const routes: Routes = [
+  {
+    path: 'sticky-footer', component: StickyFooterComponent
+  },
   {
     path: 'sign-in', component: SignInComponent
   },
