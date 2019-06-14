@@ -28,6 +28,7 @@ import { FloatingLabelsComponent } from './floating-labels/floating-labels.compo
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
 import { LayoutComponent } from './layout/layout.component';
 import { TypographyComponent } from './typography/typography.component';
+import { CodeComponent } from './code/code.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { TypographyComponent } from './typography/typography.component';
     OffcanvasComponent,
     LayoutComponent,
     TypographyComponent,
+    CodeComponent,
   ],
   imports: [
     BrowserModule,

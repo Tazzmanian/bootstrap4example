@@ -24,8 +24,12 @@ import { FloatingLabelsComponent } from './floating-labels/floating-labels.compo
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
 import { LayoutComponent } from './layout/layout.component';
 import { TypographyComponent } from './typography/typography.component';
+import { CodeComponent } from './code/code.component';
 
 const routes: Routes = [
+  {
+    path: 'code', component: CodeComponent
+  },
   {
     path: 'typography', component: TypographyComponent
   },
