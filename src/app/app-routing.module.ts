@@ -30,8 +30,12 @@ import { TablesComponent } from './tables/tables.component';
 import { FiguresComponent } from './figures/figures.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { BadgesComponent } from './badges/badges.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 const routes: Routes = [
+  {
+    path: 'breadcrumb', component: BreadcrumbComponent
+  },
   {
     path: 'badges', component: BadgesComponent
   },

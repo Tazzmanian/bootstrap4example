@@ -34,6 +34,7 @@ import { TablesComponent } from './tables/tables.component';
 import { FiguresComponent } from './figures/figures.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { BadgesComponent } from './badges/badges.component';
+import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { BadgesComponent } from './badges/badges.component';
     FiguresComponent,
     AlertsComponent,
     BadgesComponent,
+    BreadcrumbComponent,
   ],
   imports: [
     BrowserModule,
