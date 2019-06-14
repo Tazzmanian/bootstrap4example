@@ -36,6 +36,7 @@ import { AlertsComponent } from './alerts/alerts.component';
 import { BadgesComponent } from './badges/badges.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { ButtonGroupComponent } from './button-group/button-group.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +73,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
     BadgesComponent,
     BreadcrumbComponent,
     ButtonsComponent,
+    ButtonGroupComponent,
   ],
   imports: [
     BrowserModule,
