@@ -23,8 +23,12 @@ import { NavbarBottomComponent } from './navbar-bottom/navbar-bottom.component';
 import { FloatingLabelsComponent } from './floating-labels/floating-labels.component';
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
 import { LayoutComponent } from './layout/layout.component';
+import { TypographyComponent } from './typography/typography.component';
 
 const routes: Routes = [
+  {
+    path: 'typography', component: TypographyComponent
+  },
   {
     path: 'layout', component: LayoutComponent
   },
