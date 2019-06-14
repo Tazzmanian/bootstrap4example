@@ -30,6 +30,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { TypographyComponent } from './typography/typography.component';
 import { CodeComponent } from './code/code.component';
 import { ImagesComponent } from './images/images.component';
+import { TablesComponent } from './tables/tables.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { ImagesComponent } from './images/images.component';
     TypographyComponent,
     CodeComponent,
     ImagesComponent,
+    TablesComponent,
   ],
   imports: [
     BrowserModule,
