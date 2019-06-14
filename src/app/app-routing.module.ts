@@ -27,8 +27,12 @@ import { TypographyComponent } from './typography/typography.component';
 import { CodeComponent } from './code/code.component';
 import { ImagesComponent } from './images/images.component';
 import { TablesComponent } from './tables/tables.component';
+import { FiguresComponent } from './figures/figures.component';
 
 const routes: Routes = [
+  {
+    path: 'figures', component: FiguresComponent
+  },
   {
     path: 'tables', component: TablesComponent
   },

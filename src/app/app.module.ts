@@ -31,6 +31,7 @@ import { TypographyComponent } from './typography/typography.component';
 import { CodeComponent } from './code/code.component';
 import { ImagesComponent } from './images/images.component';
 import { TablesComponent } from './tables/tables.component';
+import { FiguresComponent } from './figures/figures.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { TablesComponent } from './tables/tables.component';
     CodeComponent,
     ImagesComponent,
     TablesComponent,
+    FiguresComponent,
   ],
   imports: [
     BrowserModule,
