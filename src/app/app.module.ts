@@ -29,6 +29,7 @@ import { OffcanvasComponent } from './offcanvas/offcanvas.component';
 import { LayoutComponent } from './layout/layout.component';
 import { TypographyComponent } from './typography/typography.component';
 import { CodeComponent } from './code/code.component';
+import { ImagesComponent } from './images/images.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { CodeComponent } from './code/code.component';
     LayoutComponent,
     TypographyComponent,
     CodeComponent,
+    ImagesComponent,
   ],
   imports: [
     BrowserModule,
