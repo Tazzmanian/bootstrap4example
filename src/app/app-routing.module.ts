@@ -33,8 +33,12 @@ import { BadgesComponent } from './badges/badges.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
+import { CardsComponent } from './cards/cards.component';
 
 const routes: Routes = [
+  {
+    path: 'cards', component: CardsComponent
+  },
   {
     path: 'button-group', component: ButtonGroupComponent
   },
