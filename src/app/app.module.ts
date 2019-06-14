@@ -32,6 +32,7 @@ import { CodeComponent } from './code/code.component';
 import { ImagesComponent } from './images/images.component';
 import { TablesComponent } from './tables/tables.component';
 import { FiguresComponent } from './figures/figures.component';
+import { AlertsComponent } from './alerts/alerts.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +65,7 @@ import { FiguresComponent } from './figures/figures.component';
     ImagesComponent,
     TablesComponent,
     FiguresComponent,
+    AlertsComponent,
   ],
   imports: [
     BrowserModule,
