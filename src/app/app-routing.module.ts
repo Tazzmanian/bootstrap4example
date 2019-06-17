@@ -40,8 +40,12 @@ import { DropdownsComponent } from './dropdowns/dropdowns.component';
 import { FormsComponent } from './forms/forms.component';
 import { InputGroupComponent } from './input-group/input-group.component';
 import { JumbotronCComponent } from './jumbotron-c/jumbotron-c.component';
+import { ListGroupComponent } from './list-group/list-group.component';
 
 const routes: Routes = [
+  {
+    path: 'list-group', component: ListGroupComponent
+  },
   {
     path: 'jumbotron-doc', component: JumbotronCComponent
   },
