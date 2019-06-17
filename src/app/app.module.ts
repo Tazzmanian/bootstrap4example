@@ -43,6 +43,7 @@ import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
 import { FormsComponent } from './forms/forms.component';
 import { InputGroupComponent } from './input-group/input-group.component';
+import { JumbotronCComponent } from './jumbotron-c/jumbotron-c.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +87,7 @@ import { InputGroupComponent } from './input-group/input-group.component';
     DropdownsComponent,
     FormsComponent,
     InputGroupComponent,
+    JumbotronCComponent,
   ],
   imports: [
     BrowserModule,
