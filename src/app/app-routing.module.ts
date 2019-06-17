@@ -34,8 +34,12 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardsComponent } from './cards/cards.component';
+import { CarouselCComponent } from './carousel-c/carousel-c.component';
 
 const routes: Routes = [
+  {
+    path: 'carousel-tutorial', component: CarouselCComponent
+  },
   {
     path: 'cards', component: CardsComponent
   },
