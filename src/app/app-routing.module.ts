@@ -46,8 +46,12 @@ import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { PopoversComponent } from './popovers/popovers.component';
 
 const routes: Routes = [
+  {
+    path: 'popovers', component: PopoversComponent
+  },
   {
     path: 'pagination', component: PaginationComponent
   },

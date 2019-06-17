@@ -50,6 +50,7 @@ import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PaginationComponent } from './pagination/pagination.component';
+import { PopoversComponent } from './popovers/popovers.component';
 
 @NgModule({
   declarations: [
@@ -100,6 +101,7 @@ import { PaginationComponent } from './pagination/pagination.component';
     NavsComponent,
     NavbarComponent,
     PaginationComponent,
+    PopoversComponent,
   ],
   imports: [
     BrowserModule,
