@@ -47,8 +47,12 @@ import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PaginationComponent } from './pagination/pagination.component';
 import { PopoversComponent } from './popovers/popovers.component';
+import { ProgressComponent } from './progress/progress.component';
 
 const routes: Routes = [
+  {
+    path: 'progress', component: ProgressComponent
+  },
   {
     path: 'popovers', component: PopoversComponent
   },
