@@ -38,8 +38,12 @@ import { CarouselCComponent } from './carousel-c/carousel-c.component';
 import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
 import { FormsComponent } from './forms/forms.component';
+import { InputGroupComponent } from './input-group/input-group.component';
 
 const routes: Routes = [
+  {
+    path: 'input-group', component: InputGroupComponent
+  },
   {
     path: 'forms', component: FormsComponent
   },

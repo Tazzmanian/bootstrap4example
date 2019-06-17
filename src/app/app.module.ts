@@ -42,6 +42,7 @@ import { CarouselCComponent } from './carousel-c/carousel-c.component';
 import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
 import { FormsComponent } from './forms/forms.component';
+import { InputGroupComponent } from './input-group/input-group.component';
 
 @NgModule({
   declarations: [
@@ -84,6 +85,7 @@ import { FormsComponent } from './forms/forms.component';
     CollapseComponent,
     DropdownsComponent,
     FormsComponent,
+    InputGroupComponent,
   ],
   imports: [
     BrowserModule,
