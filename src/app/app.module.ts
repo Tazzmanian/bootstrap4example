@@ -46,6 +46,7 @@ import { InputGroupComponent } from './input-group/input-group.component';
 import { JumbotronCComponent } from './jumbotron-c/jumbotron-c.component';
 import { ListGroupComponent } from './list-group/list-group.component';
 import { MediaComponent } from './media/media.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -92,6 +93,7 @@ import { MediaComponent } from './media/media.component';
     JumbotronCComponent,
     ListGroupComponent,
     MediaComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
