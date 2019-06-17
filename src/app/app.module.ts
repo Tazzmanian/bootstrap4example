@@ -49,6 +49,7 @@ import { MediaComponent } from './media/media.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -98,6 +99,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     ModalComponent,
     NavsComponent,
     NavbarComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,

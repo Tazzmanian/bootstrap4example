@@ -45,8 +45,12 @@ import { MediaComponent } from './media/media.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 const routes: Routes = [
+  {
+    path: 'pagination', component: PaginationComponent
+  },
   {
     path: 'navbar', component: NavbarComponent
   },
