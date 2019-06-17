@@ -40,6 +40,7 @@ import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardsComponent } from './cards/cards.component';
 import { CarouselCComponent } from './carousel-c/carousel-c.component';
 import { CollapseComponent } from './collapse/collapse.component';
+import { DropdownsComponent } from './dropdowns/dropdowns.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +81,7 @@ import { CollapseComponent } from './collapse/collapse.component';
     CardsComponent,
     CarouselCComponent,
     CollapseComponent,
+    DropdownsComponent,
   ],
   imports: [
     BrowserModule,
