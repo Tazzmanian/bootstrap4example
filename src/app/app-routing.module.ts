@@ -37,8 +37,12 @@ import { CardsComponent } from './cards/cards.component';
 import { CarouselCComponent } from './carousel-c/carousel-c.component';
 import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
+import { FormsComponent } from './forms/forms.component';
 
 const routes: Routes = [
+  {
+    path: 'forms', component: FormsComponent
+  },
   {
     path: 'dropdowns', component: DropdownsComponent
   },

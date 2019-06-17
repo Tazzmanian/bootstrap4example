@@ -41,6 +41,7 @@ import { CardsComponent } from './cards/cards.component';
 import { CarouselCComponent } from './carousel-c/carousel-c.component';
 import { CollapseComponent } from './collapse/collapse.component';
 import { DropdownsComponent } from './dropdowns/dropdowns.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
@@ -82,6 +83,7 @@ import { DropdownsComponent } from './dropdowns/dropdowns.component';
     CarouselCComponent,
     CollapseComponent,
     DropdownsComponent,
+    FormsComponent,
   ],
   imports: [
     BrowserModule,
