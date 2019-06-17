@@ -39,6 +39,7 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardsComponent } from './cards/cards.component';
 import { CarouselCComponent } from './carousel-c/carousel-c.component';
+import { CollapseComponent } from './collapse/collapse.component';
 
 @NgModule({
   declarations: [
@@ -78,6 +79,7 @@ import { CarouselCComponent } from './carousel-c/carousel-c.component';
     ButtonGroupComponent,
     CardsComponent,
     CarouselCComponent,
+    CollapseComponent,
   ],
   imports: [
     BrowserModule,

@@ -35,8 +35,12 @@ import { ButtonsComponent } from './buttons/buttons.component';
 import { ButtonGroupComponent } from './button-group/button-group.component';
 import { CardsComponent } from './cards/cards.component';
 import { CarouselCComponent } from './carousel-c/carousel-c.component';
+import { CollapseComponent } from './collapse/collapse.component';
 
 const routes: Routes = [
+  {
+    path: 'collapse', component: CollapseComponent
+  },
   {
     path: 'carousel-tutorial', component: CarouselCComponent
   },
