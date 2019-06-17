@@ -44,8 +44,12 @@ import { ListGroupComponent } from './list-group/list-group.component';
 import { MediaComponent } from './media/media.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
+  {
+    path: 'navbar', component: NavbarComponent
+  },
   {
     path: 'navs', component: NavsComponent
   },

@@ -48,6 +48,7 @@ import { ListGroupComponent } from './list-group/list-group.component';
 import { MediaComponent } from './media/media.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -96,6 +97,7 @@ import { NavsComponent } from './navs/navs.component';
     MediaComponent,
     ModalComponent,
     NavsComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
