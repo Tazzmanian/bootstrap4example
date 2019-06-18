@@ -52,8 +52,12 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { SpinnersComponent } from './spinners/spinners.component';
 import { ToastsComponent } from './toasts/toasts.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
+import { BordersComponent } from './borders/borders.component';
 
 const routes: Routes = [
+  {
+    path: 'borders', component: BordersComponent
+  },
   {
     path: 'tooltips', component: TooltipsComponent
   },
