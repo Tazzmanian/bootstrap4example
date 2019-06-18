@@ -53,6 +53,7 @@ import { PaginationComponent } from './pagination/pagination.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
+import { SpinnersComponent } from './spinners/spinners.component';
 
 @NgModule({
   declarations: [
@@ -106,6 +107,7 @@ import { ScrollspyComponent } from './scrollspy/scrollspy.component';
     PopoversComponent,
     ProgressComponent,
     ScrollspyComponent,
+    SpinnersComponent,
   ],
   imports: [
     BrowserModule,
