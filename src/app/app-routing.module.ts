@@ -50,8 +50,12 @@ import { PopoversComponent } from './popovers/popovers.component';
 import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { SpinnersComponent } from './spinners/spinners.component';
+import { ToastsComponent } from './toasts/toasts.component';
 
 const routes: Routes = [
+  {
+    path: 'toasts', component: ToastsComponent
+  },
   {
     path: 'spinners', component: SpinnersComponent
   },
