@@ -55,6 +55,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { ScrollspyComponent } from './scrollspy/scrollspy.component';
 import { SpinnersComponent } from './spinners/spinners.component';
 import { ToastsComponent } from './toasts/toasts.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
 
 @NgModule({
   declarations: [
@@ -110,6 +111,7 @@ import { ToastsComponent } from './toasts/toasts.component';
     ScrollspyComponent,
     SpinnersComponent,
     ToastsComponent,
+    TooltipsComponent,
   ],
   imports: [
     BrowserModule,
