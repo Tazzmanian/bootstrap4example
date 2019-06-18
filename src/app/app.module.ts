@@ -57,6 +57,7 @@ import { SpinnersComponent } from './spinners/spinners.component';
 import { ToastsComponent } from './toasts/toasts.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { BordersComponent } from './borders/borders.component';
+import { ClearfixComponent } from './clearfix/clearfix.component';
 
 @NgModule({
   declarations: [
@@ -114,6 +115,7 @@ import { BordersComponent } from './borders/borders.component';
     ToastsComponent,
     TooltipsComponent,
     BordersComponent,
+    ClearfixComponent,
   ],
   imports: [
     BrowserModule,

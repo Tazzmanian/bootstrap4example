@@ -53,8 +53,12 @@ import { SpinnersComponent } from './spinners/spinners.component';
 import { ToastsComponent } from './toasts/toasts.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { BordersComponent } from './borders/borders.component';
+import { ClearfixComponent } from './clearfix/clearfix.component';
 
 const routes: Routes = [
+  {
+    path: 'utils', component: ClearfixComponent
+  },
   {
     path: 'borders', component: BordersComponent
   },
